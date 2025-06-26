@@ -1,16 +1,16 @@
-// const useremail = "sparsh@gmail.com"
-// const useremail = ""
-// const useremail = {}
-// const useremail = ("")
-// const useremail = []
+// const username = "sparsh@gmail.com"
+// const username = ""
+// const username = {}
+// const username = ("")
+// const username = []
 
-let useremail
-if (useremail) {
+let username
+if (username) {
 
-    console.log("useremail found");
+    console.log("username found");
 }
 else{
-    console.log("useremail not found");
+    console.log("username not found");
 }
 
 /*falsy value :
@@ -23,7 +23,7 @@ truthy value:
 
 val1 = 5??10
 val1 = 5??null
-val1 = useremail??null
+val1 = username??null
 val1= undefined??null
 
 
