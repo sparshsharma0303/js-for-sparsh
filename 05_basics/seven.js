@@ -1,7 +1,9 @@
-const mynums = [1,4,5]
+mynums = [1,2,3,4,5]
+const iv = 1
+ const sumwithInitial = mynums.reduce(
+    (acc, cv )=> acc * cv,
+    iv
+ )
 
-const mytotal = mynums.reduce(function (acc, curval){
-    console.log(`acc:${acc}, currval:${curval}`)
-    return acc + curval
-},0)
-console.log(mytotal)
+ console.log(sumwithInitial);
+ 
